@@ -166,7 +166,7 @@ function wcb_scripts() {
     wp_enqueue_style( 'uikit-css', get_template_directory_uri() . '/lib/uikit-3.0.0-beta.42/css/uikit.css');
 
     // Font awsome webfont css via filesystem
-    wp_enqueue_style( 'font-awsome', get_template_directory_uri() . '/lib/fontawesome-5/web-fonts-with-css/css/fontawesome-all.min.css');
+    // wp_enqueue_style( 'font-awsome', get_template_directory_uri() . '/lib/fontawesome-5/web-fonts-with-css/css/fontawesome-all.min.css');
 
     wp_enqueue_style( 'wcb-style', get_stylesheet_uri() );
 
