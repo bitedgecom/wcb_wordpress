@@ -227,7 +227,7 @@ if ( ! file_exists( get_template_directory() . '/inc/walker/class-wp-bootstrap-n
 }
 
 function register_footer_menu() {
-  register_nav_menu('footer-menu',__( 'footer menu' ));
+  register_nav_menu('footer-menu-renamed',__( 'footer menu' ));
 }
 add_action( 'init', 'register_footer_menu' );
 
